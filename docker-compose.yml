@@ -12,13 +12,13 @@ services:
     ports:
       - 3000:3000/tcp
     environment:
-      STUDIO_PG_META_URL: http://meta:8080
+      STUDIO_PG_META_URL: http://env-0224666.hidora.com/
       POSTGRES_PASSWORD: abcdefgh
 
       DEFAULT_ORGANIZATION: MyOrg
       DEFAULT_PROJECT: MyProject
 
-      SUPABASE_URL: http://kong:8000
+      SUPABASE_URL: http://env-0224666.hidora.com/
       SUPABASE_REST_URL: http://env-0224666.hidora.com/
       SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICAgInJvbGUiOiAiYW5vbiIsCiAgICAiaXNzIjogInN1cGFiYXNlIiwKICAgICJpYXQiOiAxNjY4MDM0ODAwLAogICAgImV4cCI6IDE4MjU4MDEyMDAKfQ.AnaVUy1_8s4CANHQicGAdL8CbI3m-yrO54HZhcJZ0Gc
       SUPABASE_SERVICE_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICAgInJvbGUiOiAic2VydmljZV9yb2xlIiwKICAgICJpc3MiOiAic3VwYWJhc2UiLAogICAgImlhdCI6IDE2NjgwMzQ4MDAsCiAgICAiZXhwIjogMTgyNTgwMTIwMAp9.38YlKjmLSu_mfMy34rY1Bbqp5YNHL_4e_9peUUXdiR0
